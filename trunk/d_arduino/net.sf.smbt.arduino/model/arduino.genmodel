@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/net.sf.smbt.arduino/src-model" editorDirectory="/net.sf.smbt.arduino.editor/src"
+    modelPluginID="net.sf.smbt.arduino" modelName="Arduino" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    reflectiveDelegation="true" testsDirectory="" importerID="org.eclipse.emf.importer.cdo"
+    featureDelegation="Reflective" complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>arduino.ecore</foreignModel>
+  <genPackages prefix="Arduino" basePackage="net.sf.smbt.mdl" disposableProviderFactory="true"
+      ecorePackage="arduino.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//ARDUINO_VER_BRAND_NAME">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_DIECIMILA"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_DUEMILANOVE"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_NANO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/FUNNEL_IO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/LILYPAD"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_MINI"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_UNO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_LEONARDO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_PRO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_VER_BRAND_NAME/UNKNOWN"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//ARDUINO_BOARD_KIND">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_KIND/ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_KIND/ATMEGA_8"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_KIND/BT_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_KIND/LILYPAD_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_KIND/MINI_328P"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_KIND/MINI_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_KIND/UNKNOWN"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//ARDUINO_COMM">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_COMM/USB"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_COMM/NONE"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_COMM/XBEE_SERIES_1"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_COMM/XBEE_PRO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_COMM/ETHERNET"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_COMM/BLUETOOTH"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_COMM/MINI_USB"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_COMM/UART"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//PIN_MAPPING">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_AREF"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_TX_I"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_TX"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_RX"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D2"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D3"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D4"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D5"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D6"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D7"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D8"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D9"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D10"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D11"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D12"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D13"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D14"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D15"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D16"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D17"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D18"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D19"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D20"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D21"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D37"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_GND_D"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_3V3_1"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_3V3_2"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_5V"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_9V"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_GND_9V"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_GND_3V"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_RST"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A0"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A1"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A2"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A3"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A4"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A5"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A6"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A7"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A8"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A9"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A10"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A11"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A12"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A13"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A14"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A15"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_VIN"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_TX_O"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D22"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D23"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D24"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D25"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D26"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D27"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D28"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D29"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D30"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D31"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D32"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D33"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D34"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D35"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D36"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D38"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D39"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D40"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D41"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D42"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D43"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D44"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D45"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D46"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D47"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D48"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D49"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D50"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D51"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_D52"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_IO7"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/UNKNOWN"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A16"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A17"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A18"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A19"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A20"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A21"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A22"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A23"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MAPPING/PIN_A24"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_1280"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_328_PRO_8MHz"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_328"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_DIECIMILA"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_NG"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_PRO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/UNKNOWN"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_32U4"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//ARDUINO_BOARD_UID">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/DIECMILA_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/DIECIMILA_ATMEGA328"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/DIECIMILA_ATMEGA_328P"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/MINI_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/MEGA_ATMEGA_1280"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/LILIPAD_ATMEGA_328V"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/DUEMILANOVE_ATMEGA_328"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/DUEMILANOVE_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/MINI_PRO_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/NANO_30_ATMEGA328"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/NANO_23_ATMEGA168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/FUNNEL_IO_ATMEGA328P"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/PRO_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/PRO_ATMEGA_328"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/BT_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/PRO_MINI_ATMEGA_168"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/UNO_ATMEGA328"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/LEONARDO_ATMEGA32U4"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_BOARD_UID/PLACEHOLDER_VOID_BOARD"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//ARDUINO_REPORT_MODE">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_REPORT_MODE/ACTIVATE"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_REPORT_MODE/DEACTIVATE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//ARDUINO_FIRMWARE_MODE">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V10"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V20"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V11"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V23"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V22"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V21"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V10_I2C"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V11_I2C"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V20_I2C"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V23_I2C"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V22_I2C"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V21_I2C"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V10_SERVO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V20_SERVO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V11_SERVO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V23_SERVO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V22_SERVO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V21_SERVO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_DEFAULT"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//ARDUINO_STATUS_MODE">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_STATUS_MODE/CONNECTED"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_STATUS_MODE/DISCONNECTED"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//ARDUINO_STATUS_MODE/TRANSMITTING"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//PIN_MODE">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MODE/INPUT"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MODE/OUTPUT"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MODE/ANALOG"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MODE/PWM"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MODE/SERVO"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MODE/SHIFT"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MODE/I2C"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PIN_MODE/UNKNOWN"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="arduino.ecore#//PWM_MODE">
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PWM_MODE/HIGH"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PWM_MODE/LOW"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PWM_MODE/NONE"/>
+      <genEnumLiterals ecoreEnumLiteral="arduino.ecore#//PWM_MODE/UNKNOWN"/>
+    </genEnums>
+    <genClasses ecoreClass="arduino.ecore#//Arduino">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/ver"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/board"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/series"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/digitalPorts"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/analogPorts"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/tx"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/groundPorts"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/rx"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/pwm3V3"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/label"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/comm"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/resetPort"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/pwm9V"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/pwm5V"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/io7"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/vin"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference arduino.ecore#//Arduino/aref"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/firmataMode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/lockedPin"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/synchronizing"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Arduino/kind"/>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/digitalIOMessage">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/digitalIOMessage/data"/>
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/digitalIOMessage/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/analogIOMessage">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/analogIOMessage/data"/>
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/analogIOMessage/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/reportAnalogPin">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/reportAnalogPin/mode"/>
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/reportAnalogPin/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/reportDigitalPin">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/reportDigitalPin/mode"/>
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/reportDigitalPin/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/synchronizingArduinoModel">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/synchronizingArduinoModel/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/synchronizingArduinoHardware">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/synchronizingArduinoHardware/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/getAnalogicPort">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/getAnalogicPort/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/getDigitalPort">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/getDigitalPort/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/getAnalogicPort.1">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/getAnalogicPort.1/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/getDigitalPort.1">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/getDigitalPort.1/pin"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/getPorts"/>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/getCommPorts"/>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/getDigitalPortFromChannel">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/getDigitalPortFromChannel/channel"/>
+      </genOperations>
+      <genOperations ecoreOperation="arduino.ecore#//Arduino/getAnalogicPortFromChannel">
+        <genParameters ecoreParameter="arduino.ecore#//Arduino/getAnalogicPortFromChannel/channel"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="arduino.ecore#//Port">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Port/map"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Port/report"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//Port/channel"/>
+    </genClasses>
+    <genClasses ecoreClass="arduino.ecore#//DigitalPort">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//DigitalPort/value"/>
+    </genClasses>
+    <genClasses ecoreClass="arduino.ecore#//AnalogPort">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute arduino.ecore#//AnalogPort/value"/>
+    </genClasses>
+    <genClasses ecoreClass="arduino.ecore#//RxPort"/>
+    <genClasses ecoreClass="arduino.ecore#//TxPort"/>
+    <genClasses ecoreClass="arduino.ecore#//GndPort"/>
+    <genClasses ecoreClass="arduino.ecore#//Port3V3"/>
+    <genClasses ecoreClass="arduino.ecore#//RstPort"/>
+    <genClasses ecoreClass="arduino.ecore#//Port5V"/>
+    <genClasses ecoreClass="arduino.ecore#//Port9V"/>
+    <genClasses ecoreClass="arduino.ecore#//PortIO7"/>
+    <genClasses ecoreClass="arduino.ecore#//AREFPort"/>
+    <genClasses ecoreClass="arduino.ecore#//PortVIN"/>
+  </genPackages>
+</genmodel:GenModel>

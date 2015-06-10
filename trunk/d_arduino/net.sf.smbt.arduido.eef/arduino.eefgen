@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<eef-gen:EEFGenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:eef-gen="http://www.eclipse.org/emf/eef/generation/1.0.0" genDirectory="/net.sf.smbt.arduido.eef/src-gen">
+  <editionContexts basePackage="net.sf.smbt.mdl" descriptorsContributorID="net.sf.smbt.arduino.emf.editor" descriptorsGenericPropertiesViews="true" gmfPropertiesViews="true">
+    <PropertiesEditionContext href="arduino.components#_RXxoYA4DEeW-qZV6BCB31Q"/>
+  </editionContexts>
+  <viewsRepositories basePackage="net.sf.smbt.mdl.arduino" swtViews="true" formViews="true">
+    <viewsRepository href="arduino.components#_RXxotA4DEeW-qZV6BCB31Q"/>
+  </viewsRepositories>
+</eef-gen:EEFGenModel>

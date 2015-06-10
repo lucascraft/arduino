@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arduino:Bench xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:arduino="http://arduino/1.0">
+  <boards series="168 ATMega Diecimila" label="Arduino Diecimila ATmega168">
+    <digitalPorts map="Digital 2"/>
+    <digitalPorts map="Digital 3"/>
+    <digitalPorts map="Digital 4"/>
+    <digitalPorts map="Digital 5"/>
+    <digitalPorts map="Digital 6"/>
+    <digitalPorts map="Digital 7"/>
+    <digitalPorts map="Digital 8"/>
+    <digitalPorts map="Digital 9"/>
+    <digitalPorts map="Digital 10"/>
+    <digitalPorts map="Digital 11"/>
+    <digitalPorts map="Digital 12"/>
+    <digitalPorts map="Digital 13"/>
+    <analogPorts map="Analog 0"/>
+    <analogPorts map="Analog 1"/>
+    <analogPorts map="Analog 2"/>
+    <analogPorts map="Analog 3"/>
+    <analogPorts map="Analog 4"/>
+    <analogPorts map="Analog 5"/>
+    <analogPorts map="Analog 6"/>
+    <analogPorts map="Analog 7"/>
+    <tx map="TX"/>
+    <groundPorts map="GND 3V"/>
+    <groundPorts map="GND 9V"/>
+    <rx map="RX"/>
+    <pwm3V3 map="PIN_3V3_1"/>
+    <resetPort map="Reset"/>
+    <aref/>
+  </boards>
+  <boards ver="Arduino Duemilanove" series="168 ATMega 168" label="Arduino Duemilanove ATmega168">
+    <digitalPorts map="Digital 2"/>
+    <digitalPorts map="Digital 3"/>
+    <digitalPorts map="Digital 4"/>
+    <digitalPorts map="Digital 5"/>
+    <digitalPorts map="Digital 6"/>
+    <digitalPorts map="Digital 7"/>
+    <digitalPorts map="Digital 8"/>
+    <digitalPorts map="Digital 9"/>
+    <digitalPorts map="Digital 10"/>
+    <digitalPorts map="Digital 11"/>
+    <digitalPorts map="Digital 12"/>
+    <digitalPorts map="Digital 13"/>
+    <analogPorts map="Analog 0"/>
+    <analogPorts map="Analog 1"/>
+    <analogPorts map="Analog 2"/>
+    <analogPorts map="Analog 3"/>
+    <analogPorts map="Analog 4"/>
+    <analogPorts map="Analog 5"/>
+    <analogPorts map="Analog 6"/>
+    <analogPorts map="Analog 7"/>
+    <tx map="TX"/>
+    <groundPorts map="GND 3V"/>
+    <groundPorts map="GND 9V"/>
+    <rx map="RX"/>
+    <pwm3V3 map="PIN_3V3_1"/>
+    <resetPort map="Reset"/>
+    <aref/>
+  </boards>
+  <boards ver="Arduino Leonardo" series="168 ATMega 32U4" label="Leonardo" comm="Mini USB">
+    <digitalPorts map="Digital 2"/>
+    <digitalPorts map="Digital 3"/>
+    <digitalPorts map="Digital 4"/>
+    <digitalPorts map="Digital 5"/>
+    <digitalPorts map="Digital 6"/>
+    <digitalPorts map="Digital 7"/>
+    <digitalPorts map="Digital 8"/>
+    <digitalPorts map="Digital 9"/>
+    <digitalPorts map="Digital 10"/>
+    <digitalPorts map="Digital 11"/>
+    <digitalPorts map="Digital 12"/>
+    <digitalPorts map="Digital 13"/>
+    <analogPorts map="Analog 0"/>
+    <analogPorts map="Analog 1"/>
+    <analogPorts map="Analog 2"/>
+    <analogPorts map="Analog 3"/>
+    <analogPorts map="Analog 4"/>
+    <analogPorts map="Analog 5"/>
+    <analogPorts map="Analog 6"/>
+    <analogPorts map="Analog 7"/>
+    <tx map="TX"/>
+    <groundPorts map="GND 3V"/>
+    <groundPorts map="GND 9V"/>
+    <rx map="RX"/>
+    <pwm3V3 map="PIN_3V3_1"/>
+    <resetPort map="Reset"/>
+    <aref/>
+  </boards>
+</arduino:Bench>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="net.sf.smbt.arduino.design.Activator"
+               id="net.sf.smbt.arduino.design"
+	       name="benchmark">
+    </component>
+  </extension>
+  <extension
+        point="org.eclipse.sirius.viewpointSpecificationModel">
+     <definition
+           path="description/arduinodiagram.odesign">
+     </definition>
+  </extension>
+  <extension
+        point="org.eclipse.sirius.externalJavaAction">
+     <javaActions
+           actionClass="net.sf.smbt.arduino.design.custom.DiecemilaBoardExtJavaAction"
+           id="net.sf.smbt.arduino.design.createDiecemilaBoardExtJavaAction">
+     </javaActions>
+     <javaActions
+           actionClass="net.sf.smbt.arduino.design.custom.UnoBoardExtJavaAction"
+           id="net.sf.smbt.arduino.design.createUnoBoardExtJavaAction">
+     </javaActions>
+  </extension>
+</plugin>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="arduinodiagram" version="8.1.0">
+  <ownedViewpoints name="ArduinoBoard" modelFileExtension="arduino">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="ArduinoBoardDiagram" label="Arduino Board Bench" domainClass="arduino.Bench">
+      <defaultLayer name="Default">
+        <nodeMappings name="ArduinoBoard" semanticCandidatesExpression="feature:boards" domainClass="arduino.Arduino">
+          <borderedNodeMappings name="DigitalPin" semanticCandidatesExpression="feature:digitalPorts" domainClass="arduino.DigitalPort">
+            <style xsi:type="style:BundledImageDescription" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="AnalogPort" semanticCandidatesExpression="feature:analogPorts" domainClass="arduino.AnalogPort">
+            <style xsi:type="style:BundledImageDescription" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:BundledImageDescription" sizeComputationExpression="30" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ArduinoBoardCreateTool" nodeMappings="//@ownedViewpoints[name='ArduinoBoard']/@ownedRepresentations[name='ArduinoBoardDiagram']/@defaultLayer/@nodeMappings[name='ArduinoBoard']" extraMappings="//@ownedViewpoints[name='ArduinoBoard']/@ownedRepresentations[name='ArduinoBoardDiagram']/@defaultLayer/@nodeMappings[name='ArduinoBoard']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="container">
+                <subModelOperations xsi:type="tool_1:ExternalJavaActionCall" name="diecemila" label="diecemila" action="//@ownedViewpoints[name='ArduinoBoard']/@ownedRepresentations[name='ArduinoBoardDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='createDiecemilaBoard']"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:ExternalJavaAction" name="createDiecemilaBoard" label="Create Diecemila Board" id="net.sf.smbt.arduino.design.custom.DiecemilaBoardExtJavaAction"/>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

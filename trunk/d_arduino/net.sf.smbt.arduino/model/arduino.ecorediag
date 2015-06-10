@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_ZqlbERYXEeKHE57ocLMGBA" type="EcoreTools" name="arduino" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_ZqmCIBYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqmCIRYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqmCIhYXEeKHE57ocLMGBA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_ZqmCIxYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/ver"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmCJBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmCJRYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/board"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmCJhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_pFMwsV_eEeK2QqZqdaj48Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/kind"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pFMwsl_eEeK2QqZqdaj48Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmCJxYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/status"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmCKBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmCKRYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/synchronizing"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpMBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpMRYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/lockedPin"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpMhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpMxYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/series"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpNBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpNRYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/firmataMode"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpNhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpNxYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/label"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpOBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpORYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Arduino/comm"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpOhYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqmpOxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqmpPBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqmpPRYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqmpPhYXEeKHE57ocLMGBA" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_ZqmpPxYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/digitalIOMessage"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpQBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpQRYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/analogIOMessage"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpQhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpQxYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/reportAnalogPin"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpRBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpRRYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/reportDigitalPin"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqmpRhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqmpRxYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/synchronizingArduinoModel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqnQQBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqnQQRYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/synchronizingArduinoHardware"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqnQQhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqnQQxYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/getAnalogicPort"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqnQRBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqnQRRYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/getDigitalPort"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqnQRhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqnQRxYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/getAnalogicPort.1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqnQSBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqnQSRYXEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/getDigitalPort.1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqnQShYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zUHyUBYdEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/getPorts"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zUHyURYdEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ptaPYBYgEeKHE57ocLMGBA" type="2002">
+        <element xmi:type="ecore:EOperation" href="arduino.ecore#//Arduino/getCommPorts"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ptaPYRYgEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqnQSxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqnQTBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqnQTRYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqnQThYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//Arduino"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqnQTxYXEeKHE57ocLMGBA" x="228" y="-68" width="331"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqnQUBYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_ZqnQURYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqnQUhYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_ZqnQUxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_DIECIMILA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqnQVBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqn3UBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_PRO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqn3URYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqn3UhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_LEONARDO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqn3UxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqn3VBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_UNO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqn3VRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqn3VhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_DUEMILANOVE"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqn3VxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqn3WBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_NANO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqn3WRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqn3WhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/FUNNEL_IO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqn3WxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqn3XBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/LILYPAD"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqn3XRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqn3XhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME/ARDUINO_MINI"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqn3XxYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zqn3YBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zqn3YRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zqn3YhYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Zqn3YxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//ARDUINO_VER_BRAND_NAME"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zqn3ZBYXEeKHE57ocLMGBA" x="40" y="-64"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Zqn3ZRYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqoeYBYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqoeYRYXEeKHE57ocLMGBA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_ZqoeYhYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Port/map"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqoeYxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqoeZBYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//Port/report"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqoeZRYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqoeZhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqoeZxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqoeaBYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqoeaRYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqoeahYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqoeaxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqoebBYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqoebRYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//Port"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqoebhYXEeKHE57ocLMGBA" x="224" y="324"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqoebxYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_ZqoecBYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqoecRYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_ZqoechYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_KIND/ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqoecxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqoedBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_KIND/ATMEGA_8"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqoedRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqoedhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_KIND/BT_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqoedxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqoeeBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_KIND/LILYPAD_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqoeeRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpFcBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_KIND/MINI_328P"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpFcRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpFchYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_KIND/MINI_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpFcxYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqpFdBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqpFdRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqpFdhYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqpFdxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//ARDUINO_BOARD_KIND"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqpFeBYXEeKHE57ocLMGBA" x="576" y="368"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqpFeRYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_ZqpFehYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqpFexYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_ZqpFfBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_COMM/USB"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpFfRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpFfhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_COMM/NONE"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpFfxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpFgBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_COMM/XBEE_SERIES_1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpFgRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpFghYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_COMM/XBEE_PRO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpFgxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpFhBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_COMM/ETHERNET"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpFhRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpFhhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_COMM/BLUETOOTH"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpFhxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpFiBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_COMM/MINI_USB"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpsgBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpsgRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_COMM/UART"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpsghYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqpsgxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqpshBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqpshRYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqpshhYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//ARDUINO_COMM"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqpshxYXEeKHE57ocLMGBA" x="576" y="53"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqpsiBYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_ZqpsiRYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqpsihYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_ZqpsixYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_AREF"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpsjBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpsjRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_TX_O"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpsjhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpsjxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_TX_I"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpskBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpskRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_TX"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpskhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpskxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_RX"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpslBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpslRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D2"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpslhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpslxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D3"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqpsmBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqpsmRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D4"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTkBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqTkRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D5"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTkhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqTkxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D6"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTlBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqTlRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D7"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTlhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqTlxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D8"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTmBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqTmRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D9"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTmhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqTmxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D10"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTnBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqTnRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D11"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTnhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqTnxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D12"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqToBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqToRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D13"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqqTohYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqqToxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D14"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6oBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6oRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D15"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6ohYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6oxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D16"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6pBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6pRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D17"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6phYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6pxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D18"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6qBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6qRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D19"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6qhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6qxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D20"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6rBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6rRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D21"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6rhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6rxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D22"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6sBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6sRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D23"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6shYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6sxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D24"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6tBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6tRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D25"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqq6thYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqq6txYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D26"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhsBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhsRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D27"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhshYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhsxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D28"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhtBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhtRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D29"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhthYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhtxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D30"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhuBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhuRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D31"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhuhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhuxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D32"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhvBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhvRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D33"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhvhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhvxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D34"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhwBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhwRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D35"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhwhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhwxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D36"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhxBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhxRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D37"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhxhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqrhxxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D38"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqrhyBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsIwBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D39"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsIwRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsIwhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D40"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsIwxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsIxBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D41"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsIxRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsIxhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D42"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsIxxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsIyBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D43"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsIyRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsIyhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D44"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsIyxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsIzBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D45"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsIzRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsIzhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D46"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsIzxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsI0BYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D47"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsI0RYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsI0hYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D48"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqsI0xYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqsI1BYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D49"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv0BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv0RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D50"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv0hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv0xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D51"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv1BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv1RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_D52"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv1hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv1xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_GND_D"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv2BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv2RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_3V3_1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv2hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv2xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_3V3_2"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv3BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv3RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_5V"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv3hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv3xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_9V"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv4BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv4RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_GND_9V"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv4hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv4xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_GND_3V"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv5BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv5RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_RST"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv5hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqsv5xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A0"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqsv6BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW4BYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW4RYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW4hYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A2"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW4xYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW5BYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A3"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW5RYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW5hYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A4"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW5xYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW6BYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A5"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW6RYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW6hYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A6"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW6xYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW7BYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A7"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW7RYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW7hYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A8"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW7xYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW8BYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A9"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW8RYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW8hYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A10"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqtW8xYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqtW9BYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A11"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqt98BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqt98RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A12"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqt98hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqt98xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A13"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqt99BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqt99RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A14"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqt99hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqt99xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_A15"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqt9-BYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqt9-RYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_VIN"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqt9-hYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqt9-xYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MAPPING/PIN_IO7"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqt9_BYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zqt9_RYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zqt9_hYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zqt9_xYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Zqt-ABYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//PIN_MAPPING"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zqt-ARYXEeKHE57ocLMGBA" x="936" y="-64"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Zqt-AhYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_Zqt-AxYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_Zqt-BBYXEeKHE57ocLMGBA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_Zqt-BRYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//DigitalPort/value"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqulABYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqulARYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqulAhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqulAxYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqulBBYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqulBRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqulBhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqulBxYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqulCBYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//DigitalPort"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqulCRYXEeKHE57ocLMGBA" x="180" y="449"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqulChYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqulCxYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqulDBYXEeKHE57ocLMGBA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_ZqulDRYXEeKHE57ocLMGBA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="arduino.ecore#//AnalogPort/value"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqulDhYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqulDxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqulEBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqulERYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqulEhYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqulExYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqulFBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqulFRYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqulFhYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//AnalogPort"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqulFxYXEeKHE57ocLMGBA" x="272" y="448"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqulGBYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_ZqulGRYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqulGhYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_ZqulGxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_1280"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMEBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqvMERYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_32U4"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMEhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqvMExYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_328_PRO_8MHz"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMFBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqvMFRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_328"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMFhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqvMFxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_DIECIMILA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMGBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqvMGRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_NG"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMGhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqvMGxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_PRO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMHBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqvMHRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/UNKNOWN"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMHhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqvMHxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES/_168_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqvMIBYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqvMIRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqvMIhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqvMIxYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqvMJBYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//ARDUINO_ATMEGA_168_SERIES"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqvMJRYXEeKHE57ocLMGBA" x="740" y="-64"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqvMJhYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqvMJxYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqvMKBYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqvzIBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqvzIRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqvzIhYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqvzIxYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqvzJBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqvzJRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqvzJhYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqvzJxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//RxPort"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqvzKBYXEeKHE57ocLMGBA" x="411" y="503"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqvzKRYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqvzKhYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqvzKxYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqvzLBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqvzLRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqvzLhYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqvzLxYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqvzMBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqvzMRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqvzMhYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqvzMxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//TxPort"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqvzNBYXEeKHE57ocLMGBA" x="301" y="513"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqvzNRYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqvzNhYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqvzNxYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqvzOBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqvzORYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqvzOhYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqvzOxYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqwaMBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqwaMRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqwaMhYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqwaMxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//GndPort"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqwaNBYXEeKHE57ocLMGBA" x="172" y="612"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqwaNRYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqwaNhYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqwaNxYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqwaOBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqwaORYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqwaOhYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqwaOxYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqwaPBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqwaPRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqwaPhYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqwaPxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//Port3V3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqwaQBYXEeKHE57ocLMGBA" x="402" y="589"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqwaQRYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqwaQhYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqwaQxYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqwaRBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqwaRRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqwaRhYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqwaRxYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqwaSBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqwaSRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqwaShYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqwaSxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//RstPort"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqwaTBYXEeKHE57ocLMGBA" x="338" y="602"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqwaTRYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_ZqxBQBYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqxBQRYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_ZqxBQhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/DIECIMILA_ATMEGA_328P"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBQxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBRBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/PRO_MINI_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBRRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBRhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/BT_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBRxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBSBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/PRO_ATMEGA_328"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBSRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBShYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/PRO_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBSxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBTBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/FUNNEL_IO_ATMEGA328P"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBTRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBThYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/NANO_23_ATMEGA168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBTxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBUBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/NANO_30_ATMEGA328"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBURYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBUhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/MINI_PRO_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBUxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBVBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/DUEMILANOVE_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBVRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBVhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/DUEMILANOVE_ATMEGA_328"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxBVxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxBWBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/LILIPAD_ATMEGA_328V"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxoUBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxoURYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/MEGA_ATMEGA_1280"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxoUhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxoUxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/MINI_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxoVBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxoVRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/DIECMILA_ATMEGA_168"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxoVhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxoVxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/DIECIMILA_ATMEGA328"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxoWBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxoWRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/UNO_ATMEGA328"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxoWhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqxoWxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_BOARD_UID/LEONARDO_ATMEGA32U4"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqxoXBYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqxoXRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqxoXhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqxoXxYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqxoYBYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//ARDUINO_BOARD_UID"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqxoYRYXEeKHE57ocLMGBA" x="4" y="208"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqxoYhYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqxoYxYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqxoZBYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqxoZRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqxoZhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqxoZxYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqxoaBYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqxoaRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqxoahYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqyPYBYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqyPYRYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//Port5V"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqyPYhYXEeKHE57ocLMGBA" x="522" y="595"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqyPYxYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqyPZBYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqyPZRYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqyPZhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqyPZxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqyPaBYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqyPaRYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqyPahYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqyPaxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqyPbBYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqyPbRYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//Port9V"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqyPbhYXEeKHE57ocLMGBA" x="608" y="548"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqyPbxYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqyPcBYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqyPcRYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqyPchYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqyPcxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqyPdBYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZqyPdRYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqyPdhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqyPdxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqyPeBYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqyPeRYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//PortIO7"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqyPehYXEeKHE57ocLMGBA" x="484" y="632"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqyPexYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZqyPfBYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqyPfRYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zqy2cBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zqy2cRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zqy2chYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zqy2cxYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zqy2dBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zqy2dRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zqy2dhYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Zqy2dxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//AREFPort"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zqy2eBYXEeKHE57ocLMGBA" x="48" y="616"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Zqy2eRYXEeKHE57ocLMGBA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_Zqy2ehYXEeKHE57ocLMGBA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_Zqy2exYXEeKHE57ocLMGBA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zqy2fBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zqy2fRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zqy2fhYXEeKHE57ocLMGBA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zqy2fxYXEeKHE57ocLMGBA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zqy2gBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zqy2gRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zqy2ghYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Zqy2gxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="arduino.ecore#//PortVIN"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zqy2hBYXEeKHE57ocLMGBA" x="124" y="672"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Zqy2hRYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_Zqy2hhYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_Zqy2hxYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_Zqy2iBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_REPORT_MODE/ACTIVATE"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqy2iRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zqy2ihYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_REPORT_MODE/DEACTIVATE"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zqy2ixYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZqzdgBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZqzdgRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZqzdghYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZqzdgxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//ARDUINO_REPORT_MODE"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqzdhBYXEeKHE57ocLMGBA" x="580" y="-64"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZqzdhRYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_ZqzdhhYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_ZqzdhxYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_ZqzdiBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V23_SERVO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqzdiRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqzdihYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V22_SERVO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqzdixYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqzdjBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V21_SERVO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqzdjRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqzdjhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V20_SERVO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqzdjxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqzdkBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V11_SERVO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqzdkRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqzdkhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V10_SERVO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqzdkxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqzdlBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V23_I2C"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqzdlRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZqzdlhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V22_I2C"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZqzdlxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EkBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V21_I2C"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EkRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EkhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V20_I2C"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EkxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0ElBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V11_I2C"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0ElRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0ElhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V10_I2C"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0ElxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EmBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V23"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EmRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EmhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V22"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EmxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EnBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V21"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EnRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EnhYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V20"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EnxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EoBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V11"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EoRYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EohYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_FIRMATA_V10"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EoxYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0EpBYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE/ARDUINO_DEFAULT"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0EpRYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zq0EphYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zq0roBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zq0roRYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Zq0rohYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//ARDUINO_FIRMWARE_MODE"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zq0roxYXEeKHE57ocLMGBA" x="736" y="120"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Zq0rpBYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_Zq0rpRYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_Zq0rphYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_Zq0rpxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_STATUS_MODE/CONNECTED"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0rqBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0rqRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_STATUS_MODE/DISCONNECTED"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0rqhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0rqxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//ARDUINO_STATUS_MODE/TRANSMITTING"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0rrBYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zq0rrRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zq0rrhYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zq0rrxYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Zq0rsBYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//ARDUINO_STATUS_MODE"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zq0rsRYXEeKHE57ocLMGBA" x="568" y="248"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Zq0rshYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_Zq0rsxYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_Zq0rtBYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_Zq0rtRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MODE/INPUT"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq0rthYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq0rtxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MODE/OUTPUT"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1SsBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq1SsRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MODE/ANALOG"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1SshYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq1SsxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MODE/PWM"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1StBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq1StRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MODE/SERVO"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1SthYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq1StxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MODE/SHIFT"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1SuBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq1SuRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PIN_MODE/I2C"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1SuhYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zq1SuxYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zq1SvBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zq1SvRYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Zq1SvhYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//PIN_MODE"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zq1SvxYXEeKHE57ocLMGBA" x="760" y="556"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Zq1SwBYXEeKHE57ocLMGBA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_Zq1SwRYXEeKHE57ocLMGBA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_Zq1SwhYXEeKHE57ocLMGBA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_Zq1SwxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PWM_MODE/HIGH"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1SxBYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq1SxRYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PWM_MODE/LOW"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1SxhYXEeKHE57ocLMGBA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zq1SxxYXEeKHE57ocLMGBA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="arduino.ecore#//PWM_MODE/NONE"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq1SyBYXEeKHE57ocLMGBA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Zq1SyRYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Zq15wBYXEeKHE57ocLMGBA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Zq15wRYXEeKHE57ocLMGBA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Zq15whYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="arduino.ecore#//PWM_MODE"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zq15wxYXEeKHE57ocLMGBA" x="648" y="624"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Zq15xBYXEeKHE57ocLMGBA"/>
+  <element xmi:type="ecore:EPackage" href="arduino.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq2g2RYXEeKHE57ocLMGBA" type="3003" source="_Zqt-AhYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq2g2hYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq2g2xYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq2g3BYXEeKHE57ocLMGBA" points="[3, -7, -30, 65]$[-2, -52, -35, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq2g3RYXEeKHE57ocLMGBA" id="(0.7352941176470589,0.19047619047619047)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq2g3hYXEeKHE57ocLMGBA" type="3003" source="_ZqulChYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq2g3xYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq2g4BYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq2g4RYXEeKHE57ocLMGBA" points="[-1, -3, 31, 56]$[-17, -79, 15, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq2g4hYXEeKHE57ocLMGBA" id="(0.19607843137254902,0.09523809523809523)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq2g4xYXEeKHE57ocLMGBA" type="3003" source="_ZqvzKRYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq2g5BYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq2g5RYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq3H4BYXEeKHE57ocLMGBA" points="[2, -4, -34, 134]$[2, -55, -34, 83]$[28, -55, -8, 83]$[28, -106, -8, 32]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq3H4RYXEeKHE57ocLMGBA" id="(0.5196078431372549,0.11904761904761904)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq3H4hYXEeKHE57ocLMGBA" type="3003" source="_ZqvMJhYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq3H4xYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq3H5BYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq3H5RYXEeKHE57ocLMGBA" points="[-6, -6, 102, 101]$[-106, -98, 2, 9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq3H5hYXEeKHE57ocLMGBA" id="(0.10784313725490197,0.16666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq3H5xYXEeKHE57ocLMGBA" id="(0.6220472440944882,0.8163265306122449)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq3H6BYXEeKHE57ocLMGBA" type="3003" source="_ZqvzNRYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq3H6RYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq3H6hYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq3H6xYXEeKHE57ocLMGBA" points="[0, -4, -40, 152]$[-22, -155, -62, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq3H7BYXEeKHE57ocLMGBA" id="(0.17647058823529413,0.11904761904761904)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq3H7RYXEeKHE57ocLMGBA" type="3003" source="_ZqwaNRYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq3H7hYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq3H7xYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq3H8BYXEeKHE57ocLMGBA" points="[-5, -7, 121, 202]$[-188, -226, -62, -17]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq3H8RYXEeKHE57ocLMGBA" id="(0.22549019607843138,0.19047619047619047)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq3H8hYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_Zqt-AhYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq3H8xYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq3H9BYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq3H9RYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq3H9hYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq3H9xYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq3u8BYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/digitalPorts"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq3u8RYXEeKHE57ocLMGBA" points="[-20, 40, 100, -186]$[-119, 222, 1, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq3u8hYXEeKHE57ocLMGBA" id="(0.34441087613293053,0.9398148148148148)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq3u8xYXEeKHE57ocLMGBA" id="(0.28431372549019607,0.11904761904761904)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq3u9BYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqulChYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq3u9RYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq3u9hYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq3u9xYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq3u-BYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq3u-RYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq3u-hYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/analogPorts"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq3u-xYXEeKHE57ocLMGBA" points="[-13, 83, 22, -142]$[-35, 225, 0, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq3u_BYXEeKHE57ocLMGBA" id="(0.696078431372549,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq3u_RYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqvzKRYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq3u_hYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq3u_xYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq3vABYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq3vARYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq3vAhYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq3vAxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/tx"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq3vBBYXEeKHE57ocLMGBA" points="[-15, 163, 26, -275]$[-40, 418, 1, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq3vBRYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqvzNRYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq3vBhYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq3vBxYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq3vCBYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq4WABYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq4WARYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq4WAhYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/groundPorts"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq4WAxYXEeKHE57ocLMGBA" points="[-16, 40, 116, -277]$[-131, 312, 1, -5]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq4WBBYXEeKHE57ocLMGBA" id="(0.45098039215686275,0.14285714285714285)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq4WBRYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqvMJhYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq4WBhYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq4WBxYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq4WCBYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq4WCRYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq4WChYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq4WCxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/rx"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq4WDBYXEeKHE57ocLMGBA" points="[7, 40, -41, -242]$[50, 276, 2, -6]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq4WDRYXEeKHE57ocLMGBA" id="(0.5588235294117647,0.16666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq4WDhYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqwaNRYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq4WDxYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq4WEBYXEeKHE57ocLMGBA" x="32" y="-6"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq4WERYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq4WEhYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq4WExYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq4WFBYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/pwm3V3"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq49EBYXEeKHE57ocLMGBA" points="[-5, 36, 36, -342]$[-75, 358, -34, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq49ERYXEeKHE57ocLMGBA" id="(0.5558912386706949,0.9629629629629629)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq49EhYXEeKHE57ocLMGBA" type="3003" source="_ZqwaQRYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq49ExYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq49FBYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq49FRYXEeKHE57ocLMGBA" points="[0, -6, -22, 324]$[23, -309, 1, 21]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq49FhYXEeKHE57ocLMGBA" id="(0.24509803921568626,0.16666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq49FxYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqwaQRYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq49GBYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq49GRYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq49GhYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq49GxYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq49HBYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq49HRYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/resetPort"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq49HhYXEeKHE57ocLMGBA" points="[-6, 56, 33, -307]$[-38, 359, 1, -4]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq49HxYXEeKHE57ocLMGBA" id="(0.4117647058823529,0.11904761904761904)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq49IBYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqyPYxYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq49IRYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq49IhYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq49IxYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq49JBYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq49JRYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq49JhYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/pwm9V"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq49JxYXEeKHE57ocLMGBA" points="[10, 23, -101, -232]$[112, 246, 1, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq49KBYXEeKHE57ocLMGBA" id="(0.7009063444108762,0.9953703703703703)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq49KRYXEeKHE57ocLMGBA" id="(0.3137254901960784,0.23809523809523808)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq5kIBYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqxoYhYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq5kIRYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq5kIhYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq5kIxYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq5kJBYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq5kJRYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq5kJhYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/pwm5V"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq5kJxYXEeKHE57ocLMGBA" points="[50, 163, -103, -337]$[153, 500, 0, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq5kKBYXEeKHE57ocLMGBA" id="(0.23529411764705882,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq5kKRYXEeKHE57ocLMGBA" type="3003" source="_ZqyPbxYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq5kKhYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq5kKxYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq5kLBYXEeKHE57ocLMGBA" points="[-3, -7, 112, 253]$[-3, -87, 112, 173]$[-102, -87, 13, 173]$[-102, -228, 13, 32]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq5kLRYXEeKHE57ocLMGBA" id="(0.19607843137254902,0.19047619047619047)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq5kLhYXEeKHE57ocLMGBA" type="3003" source="_ZqxoYhYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq5kLxYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq5kMBYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq5kMRYXEeKHE57ocLMGBA" points="[-11, -11, 198, 196]$[-207, -195, 2, 12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq5kMhYXEeKHE57ocLMGBA" id="(0.21568627450980393,0.2857142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq5kMxYXEeKHE57ocLMGBA" id="(0.7874015748031497,0.7551020408163265)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq6LMBYXEeKHE57ocLMGBA" type="3003" source="_ZqyPYxYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq6LMRYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq6LMhYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq6LMxYXEeKHE57ocLMGBA" points="[-7, -4, 267, 135]$[-275, -115, -1, 24]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq6LNBYXEeKHE57ocLMGBA" id="(0.0784313725490196,0.11904761904761904)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq6LNRYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqyPbxYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq6LNhYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq6LNxYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq6LOBYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq6LORYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq6LOhYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq6LOxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/io7"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq6LPBYXEeKHE57ocLMGBA" points="[8, 34, -38, -150]$[47, 178, 1, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq6LPRYXEeKHE57ocLMGBA" id="(0.6435045317220544,0.9814814814814815)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq6LPhYXEeKHE57ocLMGBA" id="(0.20588235294117646,0.16666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq6LPxYXEeKHE57ocLMGBA" type="3003" source="_ZqyPexYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq6LQBYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq6LQRYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq6LQhYXEeKHE57ocLMGBA" points="[-4, -2, 156, 127]$[-74, -2, 86, 127]$[-74, -32, 86, 97]$[-116, -32, 44, 97]$[-116, -60, 44, 69]$[-159, -60, 1, 69]$[-159, -97, 1, 32]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq6LQxYXEeKHE57ocLMGBA" id="(0.049019607843137254,0.21428571428571427)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq6LRBYXEeKHE57ocLMGBA" type="3003" source="_Zqy2eRYXEeKHE57ocLMGBA" target="_Zqn3ZRYXEeKHE57ocLMGBA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq6LRRYXEeKHE57ocLMGBA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq6LRhYXEeKHE57ocLMGBA" fontName="Lucida Grande"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq6LRxYXEeKHE57ocLMGBA" points="[-1, -8, 65, 323]$[-63, -354, 3, -23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq6LSBYXEeKHE57ocLMGBA" id="(0.14705882352941177,0.21428571428571427)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq6yQBYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_Zqy2eRYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq6yQRYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq6yQhYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq6yQxYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq6yRBYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq6yRRYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq6yRhYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/vin"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq6yRxYXEeKHE57ocLMGBA" points="[-5, 35, 31, -273]$[-45, 288, -9, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq6ySBYXEeKHE57ocLMGBA" id="(0.5347432024169184,0.9629629629629629)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Zq6ySRYXEeKHE57ocLMGBA" type="3002" source="_ZqmCIBYXEeKHE57ocLMGBA" target="_ZqyPexYXEeKHE57ocLMGBA">
+    <children xmi:type="notation:Node" xmi:id="_Zq6yShYXEeKHE57ocLMGBA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq6ySxYXEeKHE57ocLMGBA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Zq6yTBYXEeKHE57ocLMGBA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zq6yTRYXEeKHE57ocLMGBA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Zq6yThYXEeKHE57ocLMGBA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zq6yTxYXEeKHE57ocLMGBA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="arduino.ecore#//Arduino/aref"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zq6yUBYXEeKHE57ocLMGBA" points="[21, 24, -100, -113]$[122, 136, 1, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq6yURYXEeKHE57ocLMGBA" id="(0.6737160120845922,0.9675925925925926)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zq6yUhYXEeKHE57ocLMGBA" id="(0.22549019607843138,0.047619047619047616)"/>
+  </edges>
+</notation:Diagram>

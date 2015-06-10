@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eef-components="http://www.eclipse.org/emf/eef/components/1.0.0" xmlns:eef-views="http://www.eclipse.org/emf/eef/views/1.0.0">
+  <eef-components:PropertiesEditionContext xmi:id="_RXxoYA4DEeW-qZV6BCB31Q" documentation="Edition Context for arduino GenPackage">
+    <categories xmi:id="_RXxoYQ4DEeW-qZV6BCB31Q" name="arduino">
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxoYg4DEeW-qZV6BCB31Q" name="Arduino" views="_RXxotg4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoYw4DEeW-qZV6BCB31Q" name="ver" views="_RXxouA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/ver"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoZA4DEeW-qZV6BCB31Q" name="board" views="_RXxouQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/board"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoZQ4DEeW-qZV6BCB31Q" name="series" views="_RXxoug4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/series"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoZg4DEeW-qZV6BCB31Q" name="digitalPorts" views="_RXxouw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EReference" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/digitalPorts"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoZw4DEeW-qZV6BCB31Q" name="analogPorts" views="_RXxovA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EReference" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/analogPorts"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoaA4DEeW-qZV6BCB31Q" name="groundPorts" views="_RXxovQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EReference" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/groundPorts"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoaQ4DEeW-qZV6BCB31Q" name="label" views="_RXxovg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/label"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoag4DEeW-qZV6BCB31Q" name="comm" views="_RXxovw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/comm"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoaw4DEeW-qZV6BCB31Q" name="firmataMode" views="_RXxowA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/firmataMode"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxobA4DEeW-qZV6BCB31Q" name="lockedPin" views="_RXxowQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/lockedPin"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxobQ4DEeW-qZV6BCB31Q" name="synchronizing" views="_RXxowg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/synchronizing"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxobg4DEeW-qZV6BCB31Q" name="status" views="_RXxoww4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/status"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxobw4DEeW-qZV6BCB31Q" name="kind" views="_RXxoxA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/kind"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxocA4DEeW-qZV6BCB31Q" name="name" views="_RXxoxQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Arduino"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxocQ4DEeW-qZV6BCB31Q" name="Port" views="_RXxoxg4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxocg4DEeW-qZV6BCB31Q" name="map" views="_RXxoyA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxocw4DEeW-qZV6BCB31Q" name="report" views="_RXxoyQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxodA4DEeW-qZV6BCB31Q" name="channel" views="_RXxoyg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxodQ4DEeW-qZV6BCB31Q" name="name" views="_RXxoyw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxodg4DEeW-qZV6BCB31Q" name="DigitalPort" views="_RXxozA4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxodw4DEeW-qZV6BCB31Q" name="map" views="_RXxozg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoeA4DEeW-qZV6BCB31Q" name="report" views="_RXxozw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoeQ4DEeW-qZV6BCB31Q" name="channel" views="_RXxo0A4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoeg4DEeW-qZV6BCB31Q" name="name" views="_RXxo0Q4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoew4DEeW-qZV6BCB31Q" name="value" views="_RXxo0g4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//DigitalPort/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//DigitalPort"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxofA4DEeW-qZV6BCB31Q" name="AnalogPort" views="_RXxo0w4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxofQ4DEeW-qZV6BCB31Q" name="map" views="_RXxo1Q4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxofg4DEeW-qZV6BCB31Q" name="report" views="_RXxo1g4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxofw4DEeW-qZV6BCB31Q" name="channel" views="_RXxo1w4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxogA4DEeW-qZV6BCB31Q" name="name" views="_RXxo2A4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxogQ4DEeW-qZV6BCB31Q" name="value" views="_RXxo2Q4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//AnalogPort/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//AnalogPort"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxogg4DEeW-qZV6BCB31Q" name="RxPort" views="_RXxo2g4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxogw4DEeW-qZV6BCB31Q" name="map" views="_RXyPcA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxohA4DEeW-qZV6BCB31Q" name="report" views="_RXyPcQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxohQ4DEeW-qZV6BCB31Q" name="channel" views="_RXyPcg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxohg4DEeW-qZV6BCB31Q" name="name" views="_RXyPcw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//RxPort"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxohw4DEeW-qZV6BCB31Q" name="TxPort" views="_RXyPdA4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoiA4DEeW-qZV6BCB31Q" name="map" views="_RXyPdg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoiQ4DEeW-qZV6BCB31Q" name="report" views="_RXyPdw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoig4DEeW-qZV6BCB31Q" name="channel" views="_RXyPeA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoiw4DEeW-qZV6BCB31Q" name="name" views="_RXyPeQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//TxPort"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxojA4DEeW-qZV6BCB31Q" name="GndPort" views="_RXyPeg4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxojQ4DEeW-qZV6BCB31Q" name="map" views="_RXyPfA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxojg4DEeW-qZV6BCB31Q" name="report" views="_RXyPfQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxojw4DEeW-qZV6BCB31Q" name="channel" views="_RXyPfg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxokA4DEeW-qZV6BCB31Q" name="name" views="_RXyPfw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//GndPort"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxokQ4DEeW-qZV6BCB31Q" name="Port3V3" views="_RXyPgA4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxokg4DEeW-qZV6BCB31Q" name="map" views="_RXyPgg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxokw4DEeW-qZV6BCB31Q" name="report" views="_RXyPgw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxolA4DEeW-qZV6BCB31Q" name="channel" views="_RXyPhA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxolQ4DEeW-qZV6BCB31Q" name="name" views="_RXyPhQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port3V3"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxolg4DEeW-qZV6BCB31Q" name="RstPort" views="_RXyPhg4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxolw4DEeW-qZV6BCB31Q" name="map" views="_RXyPiA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxomA4DEeW-qZV6BCB31Q" name="report" views="_RXyPiQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxomQ4DEeW-qZV6BCB31Q" name="channel" views="_RXyPig4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxomg4DEeW-qZV6BCB31Q" name="name" views="_RXyPiw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//RstPort"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxomw4DEeW-qZV6BCB31Q" name="Port5V" views="_RXyPjA4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxonA4DEeW-qZV6BCB31Q" name="map" views="_RXyPjg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxonQ4DEeW-qZV6BCB31Q" name="report" views="_RXyPjw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxong4DEeW-qZV6BCB31Q" name="channel" views="_RXyPkA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxonw4DEeW-qZV6BCB31Q" name="name" views="_RXyPkQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port5V"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxooA4DEeW-qZV6BCB31Q" name="Port9V" views="_RXyPkg4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxooQ4DEeW-qZV6BCB31Q" name="map" views="_RXyPlA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoog4DEeW-qZV6BCB31Q" name="report" views="_RXyPlQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoow4DEeW-qZV6BCB31Q" name="channel" views="_RXyPlg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxopA4DEeW-qZV6BCB31Q" name="name" views="_RXyPlw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port9V"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxopQ4DEeW-qZV6BCB31Q" name="PortIO7" views="_RXyPmA4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxopg4DEeW-qZV6BCB31Q" name="map" views="_RXyPmg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxopw4DEeW-qZV6BCB31Q" name="report" views="_RXyPmw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoqA4DEeW-qZV6BCB31Q" name="channel" views="_RXyPnA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoqQ4DEeW-qZV6BCB31Q" name="name" views="_RXyPnQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//PortIO7"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxoqg4DEeW-qZV6BCB31Q" name="AREFPort" views="_RXyPng4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxoqw4DEeW-qZV6BCB31Q" name="map" views="_RXyPoA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxorA4DEeW-qZV6BCB31Q" name="report" views="_RXyPoQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxorQ4DEeW-qZV6BCB31Q" name="channel" views="_RXyPog4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxorg4DEeW-qZV6BCB31Q" name="name" views="_RXyPow4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//AREFPort"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_RXxorw4DEeW-qZV6BCB31Q" name="PortVIN" views="_RXyPpA4DEeW-qZV6BCB31Q">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxosA4DEeW-qZV6BCB31Q" name="map" views="_RXyPpg4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/map"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxosQ4DEeW-qZV6BCB31Q" name="report" views="_RXyPpw4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/report"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxosg4DEeW-qZV6BCB31Q" name="channel" views="_RXyPqA4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/channel"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_RXxosw4DEeW-qZV6BCB31Q" name="name" views="_RXyPqQ4DEeW-qZV6BCB31Q">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//Port/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/net.sf.smbt.arduino/model/arduino.ecore#//PortVIN"/>
+      </bindings>
+    </categories>
+    <model href="platform:/resource/net.sf.smbt.arduino/model/arduino.genmodel#//arduino"/>
+  </eef-components:PropertiesEditionContext>
+  <eef-views:ViewsRepository xmi:id="_RXxotA4DEeW-qZV6BCB31Q" documentation="Views repository for arduino GenPackage" name="arduino">
+    <RepositoryKind>SWT</RepositoryKind>
+    <RepositoryKind>Form</RepositoryKind>
+    <categories xmi:id="_RXxotQ4DEeW-qZV6BCB31Q" name="arduino">
+      <views xmi:id="_RXxotg4DEeW-qZV6BCB31Q" name="Arduino">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXxotw4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxouA4DEeW-qZV6BCB31Q" name="ver">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxouQ4DEeW-qZV6BCB31Q" name="board">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxoug4DEeW-qZV6BCB31Q" name="series">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxouw4DEeW-qZV6BCB31Q" name="digitalPorts">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxovA4DEeW-qZV6BCB31Q" name="analogPorts">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxovQ4DEeW-qZV6BCB31Q" name="groundPorts">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxovg4DEeW-qZV6BCB31Q" name="label">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxovw4DEeW-qZV6BCB31Q" name="comm">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxowA4DEeW-qZV6BCB31Q" name="firmataMode">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxowQ4DEeW-qZV6BCB31Q" name="lockedPin">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxowg4DEeW-qZV6BCB31Q" name="synchronizing">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.1"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxoww4DEeW-qZV6BCB31Q" name="status">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxoxA4DEeW-qZV6BCB31Q" name="kind">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxoxQ4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXxoxg4DEeW-qZV6BCB31Q" name="Port">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXxoxw4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxoyA4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxoyQ4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxoyg4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxoyw4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXxozA4DEeW-qZV6BCB31Q" name="DigitalPort">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXxozQ4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxozg4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxozw4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxo0A4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxo0Q4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxo0g4DEeW-qZV6BCB31Q" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXxo0w4DEeW-qZV6BCB31Q" name="AnalogPort">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXxo1A4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxo1Q4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxo1g4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxo1w4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxo2A4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXxo2Q4DEeW-qZV6BCB31Q" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXxo2g4DEeW-qZV6BCB31Q" name="RxPort">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXxo2w4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPcA4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPcQ4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPcg4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPcw4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPdA4DEeW-qZV6BCB31Q" name="TxPort">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPdQ4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPdg4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPdw4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPeA4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPeQ4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPeg4DEeW-qZV6BCB31Q" name="GndPort">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPew4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPfA4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPfQ4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPfg4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPfw4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPgA4DEeW-qZV6BCB31Q" name="Port3V3">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPgQ4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPgg4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPgw4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPhA4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPhQ4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPhg4DEeW-qZV6BCB31Q" name="RstPort">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPhw4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPiA4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPiQ4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPig4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPiw4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPjA4DEeW-qZV6BCB31Q" name="Port5V">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPjQ4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPjg4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPjw4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPkA4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPkQ4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPkg4DEeW-qZV6BCB31Q" name="Port9V">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPkw4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPlA4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPlQ4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPlg4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPlw4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPmA4DEeW-qZV6BCB31Q" name="PortIO7">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPmQ4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPmg4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPmw4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPnA4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPnQ4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPng4DEeW-qZV6BCB31Q" name="AREFPort">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPnw4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPoA4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPoQ4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPog4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPow4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_RXyPpA4DEeW-qZV6BCB31Q" name="PortVIN">
+        <elements xsi:type="eef-views:Container" xmi:id="_RXyPpQ4DEeW-qZV6BCB31Q" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPpg4DEeW-qZV6BCB31Q" name="map">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPpw4DEeW-qZV6BCB31Q" name="report">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPqA4DEeW-qZV6BCB31Q" name="channel">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_RXyPqQ4DEeW-qZV6BCB31Q" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+    </categories>
+  </eef-views:ViewsRepository>
+</xmi:XMI>

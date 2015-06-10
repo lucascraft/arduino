@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+
+   <extension point="org.eclipse.ui.newWizards">
+      <wizard
+            id="net.sf.smbt.mdl.arduino.presentation.ArduinoModelWizardID"
+            name="%_UI_ArduinoModelWizard_label"
+            class="net.sf.smbt.mdl.arduino.presentation.ArduinoModelWizard"
+            category="net.sf.smbt.ui"
+            icon="icons/arduino.png">
+         <description>%_UI_ArduinoModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="net.sf.smbt.mdl.arduino.presentation.ArduinoEditorID"
+            name="%_UI_ArduinoEditor_label"
+            icon="icons/full/obj16/ArduinoModelFile.gif"
+            extensions="arduino"
+            class="net.sf.smbt.mdl.arduino.presentation.ArduinoEditor"
+            contributorClass="net.sf.smbt.mdl.arduino.presentation.ArduinoActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
