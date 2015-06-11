@@ -5,20 +5,20 @@
       <defaultLayer name="Default">
         <nodeMappings name="ArduinoBoard" semanticCandidatesExpression="feature:boards" domainClass="arduino.Arduino">
           <borderedNodeMappings name="DigitalPin" semanticCandidatesExpression="feature:digitalPorts" domainClass="arduino.DigitalPort">
-            <style xsi:type="style:BundledImageDescription" labelSize="6" showIcon="false" labelExpression="feature:map" sizeComputationExpression="4" labelPosition="node">
+            <style xsi:type="style:BundledImageDescription" borderSizeComputationExpression="1" labelSize="6" showIcon="false" labelExpression="feature:map" labelPosition="node">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
             </style>
           </borderedNodeMappings>
           <borderedNodeMappings name="AnalogPort" semanticCandidatesExpression="feature:analogPorts" domainClass="arduino.AnalogPort">
-            <style xsi:type="style:BundledImageDescription" labelSize="6" showIcon="false" labelExpression="feature:map" sizeComputationExpression="4" labelPosition="node">
+            <style xsi:type="style:BundledImageDescription" borderSizeComputationExpression="1" labelSize="6" showIcon="false" labelExpression="feature:map" labelPosition="node">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
               <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </borderedNodeMappings>
-          <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="50" sizeComputationExpression="0.5" labelPosition="node" resizeKind="NSEW" workspacePath="/net.sf.smbt.arduino.design/images/controller_arduino_uno_r3.svg">
+          <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="10" sizeComputationExpression="33" resizeKind="NSEW" workspacePath="/net.sf.smbt.arduino.design/images/controller_arduino_uno_r3.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
