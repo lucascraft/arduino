@@ -121,27 +121,26 @@
     <eLiterals name="PIN_TX_I" value="33" literal="TX I"/>
     <eLiterals name="PIN_TX" literal="TX"/>
     <eLiterals name="PIN_RX" value="1" literal="RX"/>
-    <eLiterals name="PIN_D2" value="2" literal="Digital 2"/>
-    <eLiterals name="PIN_D3" value="3" literal="Digital 3"/>
-    <eLiterals name="PIN_D4" value="4" literal="Digital 4"/>
-    <eLiterals name="PIN_D5" value="5" literal="Digital 5"/>
-    <eLiterals name="PIN_D6" value="6" literal="Digital 6"/>
-    <eLiterals name="PIN_D7" value="7" literal="Digital 7"/>
-    <eLiterals name="PIN_D8" value="8" literal="Digital 8"/>
-    <eLiterals name="PIN_D9" value="9" literal="Digital 9"/>
-    <eLiterals name="PIN_D10" value="10" literal="Digital 10"/>
-    <eLiterals name="PIN_D11" value="11" literal="Digital 11"/>
-    <eLiterals name="PIN_D12" value="12" literal="Digital 12"/>
-    <eLiterals name="PIN_D13" value="13" literal="Digital 13"/>
-    <eLiterals name="PIN_D14" value="14" literal="Digital 14"/>
-    <eLiterals name="PIN_D15" value="15" literal="Digital 15"/>
-    <eLiterals name="PIN_D16" value="16" literal="Digital 16"/>
-    <eLiterals name="PIN_D17" value="17" literal="Digital 17"/>
-    <eLiterals name="PIN_D18" value="18" literal="Digital 18"/>
-    <eLiterals name="PIN_D19" value="19" literal="Digital 19"/>
-    <eLiterals name="PIN_D20" value="20" literal="Digital 20"/>
-    <eLiterals name="PIN_D21" value="21" literal="Digital 21"/>
-    <eLiterals name="PIN_D37" value="37" literal="Digital 37"/>
+    <eLiterals name="PIN_D2" value="2" literal="D2"/>
+    <eLiterals name="PIN_D3" value="3" literal="D3"/>
+    <eLiterals name="PIN_D4" value="4" literal="D4"/>
+    <eLiterals name="PIN_D5" value="5" literal="D5"/>
+    <eLiterals name="PIN_D6" value="6" literal="D6"/>
+    <eLiterals name="PIN_D7" value="7" literal="D7"/>
+    <eLiterals name="PIN_D8" value="8" literal="D8"/>
+    <eLiterals name="PIN_D9" value="9" literal="D9"/>
+    <eLiterals name="PIN_D10" value="10" literal="D10"/>
+    <eLiterals name="PIN_D11" value="11" literal="D11"/>
+    <eLiterals name="PIN_D12" value="12" literal="D12"/>
+    <eLiterals name="PIN_D13" value="13" literal="D13"/>
+    <eLiterals name="PIN_D14" value="14" literal="D14"/>
+    <eLiterals name="PIN_D15" value="15" literal="D15"/>
+    <eLiterals name="PIN_D16" value="16" literal="D16"/>
+    <eLiterals name="PIN_D17" value="17" literal="D17"/>
+    <eLiterals name="PIN_D18" value="18" literal="D18"/>
+    <eLiterals name="PIN_D19" value="19" literal="D19"/>
+    <eLiterals name="PIN_D20" value="20" literal="D20"/>
+    <eLiterals name="PIN_D21" value="21" literal="D21"/>
     <eLiterals name="PIN_GND_D" value="30"/>
     <eLiterals name="PIN_3V3_1" value="14"/>
     <eLiterals name="PIN_3V3_2" value="15"/>
@@ -150,65 +149,66 @@
     <eLiterals name="PIN_GND_9V" value="16" literal="GND 9V"/>
     <eLiterals name="PIN_GND_3V" value="17" literal="GND 3V"/>
     <eLiterals name="PIN_RST" value="18" literal="Reset"/>
-    <eLiterals name="PIN_A0" literal="Analog 0"/>
-    <eLiterals name="PIN_A1" value="1" literal="Analog 1"/>
-    <eLiterals name="PIN_A2" value="2" literal="Analog 2"/>
-    <eLiterals name="PIN_A3" value="3" literal="Analog 3"/>
-    <eLiterals name="PIN_A4" value="4" literal="Analog 4"/>
-    <eLiterals name="PIN_A5" value="5" literal="Analog 5"/>
-    <eLiterals name="PIN_A6" value="6" literal="Analog 6"/>
-    <eLiterals name="PIN_A7" value="7" literal="Analog 7"/>
-    <eLiterals name="PIN_A8" value="8" literal="Analog 8"/>
-    <eLiterals name="PIN_A9" value="9" literal="Analog 9"/>
-    <eLiterals name="PIN_A10" value="10" literal="Analog 10"/>
-    <eLiterals name="PIN_A11" value="11" literal="Analog 11"/>
-    <eLiterals name="PIN_A12" value="12" literal="Analog 12"/>
-    <eLiterals name="PIN_A13" value="13" literal="Analog 13"/>
-    <eLiterals name="PIN_A14" value="14" literal="Analog 14"/>
-    <eLiterals name="PIN_A15" value="15" literal="Analog 15"/>
+    <eLiterals name="PIN_A0" literal="A0"/>
+    <eLiterals name="PIN_A1" value="1" literal="A1"/>
+    <eLiterals name="PIN_A2" value="2" literal="A2"/>
+    <eLiterals name="PIN_A3" value="3" literal="A3"/>
+    <eLiterals name="PIN_A4" value="4" literal="A4"/>
+    <eLiterals name="PIN_A5" value="5" literal="A5"/>
+    <eLiterals name="PIN_A6" value="6" literal="A6"/>
+    <eLiterals name="PIN_A7" value="7" literal="A7"/>
+    <eLiterals name="PIN_A8" value="8" literal="A8"/>
+    <eLiterals name="PIN_A9" value="9" literal="A9"/>
+    <eLiterals name="PIN_A10" value="10" literal="A10"/>
+    <eLiterals name="PIN_A11" value="11" literal="A11"/>
+    <eLiterals name="PIN_A12" value="12" literal="A12"/>
+    <eLiterals name="PIN_A13" value="13" literal="A13"/>
+    <eLiterals name="PIN_A14" value="14" literal="A14"/>
+    <eLiterals name="PIN_A15" value="15" literal="A15"/>
     <eLiterals name="PIN_VIN" value="31" literal="VIN"/>
     <eLiterals name="PIN_TX_O" value="32" literal="TX O"/>
-    <eLiterals name="PIN_D22" value="22" literal="Digital 22"/>
-    <eLiterals name="PIN_D23" value="23" literal="Digital 23"/>
-    <eLiterals name="PIN_D24" value="24" literal="Digital 24"/>
-    <eLiterals name="PIN_D25" value="25" literal="Digital 25"/>
-    <eLiterals name="PIN_D26" value="26" literal="Digital 26"/>
-    <eLiterals name="PIN_D27" value="27" literal="Digital 27"/>
-    <eLiterals name="PIN_D28" value="28" literal="Digital 28"/>
-    <eLiterals name="PIN_D29" value="29" literal="Digital 29"/>
-    <eLiterals name="PIN_D30" value="30" literal="Digital 30"/>
-    <eLiterals name="PIN_D31" value="31" literal="Digital 31"/>
-    <eLiterals name="PIN_D32" value="32" literal="Digital 32"/>
-    <eLiterals name="PIN_D33" value="33" literal="Digital 33"/>
-    <eLiterals name="PIN_D34" value="34" literal="Digital 34"/>
-    <eLiterals name="PIN_D35" value="35" literal="Digital 35"/>
-    <eLiterals name="PIN_D36" value="36" literal="Digital 36"/>
-    <eLiterals name="PIN_D38" value="38" literal="Digital 38"/>
-    <eLiterals name="PIN_D39" value="39" literal="Digital 39"/>
-    <eLiterals name="PIN_D40" value="40" literal="Digital 40"/>
-    <eLiterals name="PIN_D41" value="41" literal="Digital 41"/>
-    <eLiterals name="PIN_D42" value="42" literal="Digital 42"/>
-    <eLiterals name="PIN_D43" value="43" literal="Digital 43"/>
-    <eLiterals name="PIN_D44" value="44" literal="Digital 44"/>
-    <eLiterals name="PIN_D45" value="45" literal="Digital 45"/>
-    <eLiterals name="PIN_D46" value="46" literal="Digital 46"/>
-    <eLiterals name="PIN_D47" value="47" literal="Digital 47"/>
-    <eLiterals name="PIN_D48" value="48" literal="Digital 48"/>
-    <eLiterals name="PIN_D49" value="49" literal="Digital 49"/>
-    <eLiterals name="PIN_D50" value="50" literal="Digital 50"/>
-    <eLiterals name="PIN_D51" value="51" literal="Digital 51"/>
-    <eLiterals name="PIN_D52" value="52" literal="Digital 52"/>
+    <eLiterals name="PIN_D22" value="22" literal="D22"/>
+    <eLiterals name="PIN_D23" value="23" literal="D23"/>
+    <eLiterals name="PIN_D24" value="24" literal="D24"/>
+    <eLiterals name="PIN_D25" value="25" literal="D25"/>
+    <eLiterals name="PIN_D26" value="26" literal="D26"/>
+    <eLiterals name="PIN_D27" value="27" literal="D27"/>
+    <eLiterals name="PIN_D28" value="28" literal="D28"/>
+    <eLiterals name="PIN_D29" value="29" literal="D29"/>
+    <eLiterals name="PIN_D30" value="30" literal="D30"/>
+    <eLiterals name="PIN_D31" value="31" literal="D31"/>
+    <eLiterals name="PIN_D32" value="32" literal="D32"/>
+    <eLiterals name="PIN_D33" value="33" literal="D33"/>
+    <eLiterals name="PIN_D34" value="34" literal="D34"/>
+    <eLiterals name="PIN_D35" value="35" literal="D35"/>
+    <eLiterals name="PIN_D36" value="36" literal="D36"/>
+    <eLiterals name="PIN_D37" value="37" literal="D37"/>
+    <eLiterals name="PIN_D38" value="38" literal="D38"/>
+    <eLiterals name="PIN_D39" value="39" literal="D39"/>
+    <eLiterals name="PIN_D40" value="40" literal="D40"/>
+    <eLiterals name="PIN_D41" value="41" literal="D41"/>
+    <eLiterals name="PIN_D42" value="42" literal="D42"/>
+    <eLiterals name="PIN_D43" value="43" literal="D43"/>
+    <eLiterals name="PIN_D44" value="44" literal="D44"/>
+    <eLiterals name="PIN_D45" value="45" literal="D45"/>
+    <eLiterals name="PIN_D46" value="46" literal="D46"/>
+    <eLiterals name="PIN_D47" value="47" literal="D47"/>
+    <eLiterals name="PIN_D48" value="48" literal="D48"/>
+    <eLiterals name="PIN_D49" value="49" literal="D49"/>
+    <eLiterals name="PIN_D50" value="50" literal="D50"/>
+    <eLiterals name="PIN_D51" value="51" literal="D51"/>
+    <eLiterals name="PIN_D52" value="52" literal="D52"/>
     <eLiterals name="PIN_IO7" value="82"/>
     <eLiterals name="UNKNOWN"/>
-    <eLiterals name="PIN_A16" value="16" literal="Analog 16"/>
-    <eLiterals name="PIN_A17" value="17" literal="Analog 17"/>
-    <eLiterals name="PIN_A18" value="18" literal="Analog 18"/>
-    <eLiterals name="PIN_A19" value="19" literal="Analog 19"/>
-    <eLiterals name="PIN_A20" value="20" literal="Analog 20"/>
-    <eLiterals name="PIN_A21" value="21" literal="Analog 21"/>
-    <eLiterals name="PIN_A22" value="22" literal="Analog 22"/>
-    <eLiterals name="PIN_A23" value="23" literal="Analog 23"/>
-    <eLiterals name="PIN_A24" value="24" literal="Analog 24"/>
+    <eLiterals name="PIN_A16" value="16" literal="A16"/>
+    <eLiterals name="PIN_A17" value="17" literal="A17"/>
+    <eLiterals name="PIN_A18" value="18" literal="A18"/>
+    <eLiterals name="PIN_A19" value="19" literal="A19"/>
+    <eLiterals name="PIN_A20" value="20" literal="A20"/>
+    <eLiterals name="PIN_A21" value="21" literal="A21"/>
+    <eLiterals name="PIN_A22" value="22" literal="A22"/>
+    <eLiterals name="PIN_A23" value="23" literal="A23"/>
+    <eLiterals name="PIN_A24" value="24" literal="A24"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="DigitalPort" eSuperTypes="#//Port">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"

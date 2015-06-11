@@ -1102,7 +1102,6 @@ public class ArduinoPackageImpl extends EPackageImpl implements ArduinoPackage {
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D19);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D20);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D21);
-		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D37);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_GND_D);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_3V3_1);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_3V3_2);
@@ -1144,6 +1143,7 @@ public class ArduinoPackageImpl extends EPackageImpl implements ArduinoPackage {
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D34);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D35);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D36);
+		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D37);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D38);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D39);
 		addEEnumLiteral(piN_MAPPINGEEnum, net.sf.smbt.mdl.arduino.PIN_MAPPING.PIN_D40);
